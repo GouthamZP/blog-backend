@@ -20,7 +20,8 @@
     "jsend": "^1.1.0",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.5.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.3",
@@ -30,6 +31,5 @@
     "@types/jsend": "^1.0.29",
     "@types/jsonwebtoken": "^9.0.2",
     "@types/morgan": "^1.9.5",
-    "typescript": "^5.2.2"
   }
 }
