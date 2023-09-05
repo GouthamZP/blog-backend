@@ -17,7 +17,7 @@ export const login: RequestHandler = async (req, res, next) => {
         const { email, password } = req.body;
 
         // check if the user exist
-        const user = await models.User.findOne({ email });
+        const user = await models.User.findOne({ email }).select("+password");
         if (!user) {
             return res.status(StatusCodes.UNAUTHORIZED)
                 .json(jsend.fail({ message: "email not registered, please login. " }));
