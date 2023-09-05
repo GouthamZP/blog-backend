@@ -35,7 +35,7 @@ const main = async () => {
         app.use(cors());
         app.use(express.json());
         app.use(cookieParser());
-        app.use(morgan("tiny"));
+        app.use(morgan("common"));
         // 3rd party middlewares
         
         /**
